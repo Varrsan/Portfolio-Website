@@ -1,0 +1,15 @@
+CSS File : Add after closing head tag
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+JS File : Add Before All Script Tags
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+        easeing: "ease-in-out",
+      });
+    </script>
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+
